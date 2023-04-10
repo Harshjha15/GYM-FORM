@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    
+    text-align: center;
+    overflow: auto;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar .left li{
+    float:left;
+    margin :3px 5px;
+    padding :5px 15px;
+}
+.navbar .right li {
+    text-align: center;
+    float:right;                                          
+margin:5px 9px;
+padding: 5px 9px;
+
+}
+.navbar a{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.navbar a:hover{
+    color: rgb(249, 5, 5);
+}
+.navbar a:active{
+    color: rgb(216, 193, 42);
+}
+.navbar .left ul{
+    padding-left: 205px;
+}
+.navbar .right ul{
+    padding-right: 85px;
+}
+footer {
+    background-color:rgb(2, 2, 19);
+    color: rgb(241, 248, 243);
+    text-align: center;
+    border: 2px solid black;
+    
+}
+.main{
+    width: 100vw;
+        height: 100vh;
+        background-image: url("/c870x524.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        color:rgb(7, 13, 13);
+        background-attachment:local;
+        border: 4px solid rgb(14, 14, 14);
+    }
+    .main .form{
+        margin-top:5px;
+        margin-bottom: 5px;
+        padding:25px 35px;
+        background-color: rgb(7, 6, 6);
+       /* border: 3px solid rgb(234, 232, 150);*/
+        border-radius: 110px;
+        display:block;
+        text-align: center;
+        width:300px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .form .entry input ,select{
+        text-align: center;
+        display: block;
+        width:200px;
+        padding: 5px 50px ;
+        border:2px solid black;
+        border-radius: 100px;
+        margin: 15px auto;
+        color: black;
+        font-weight: bold;
+    }
+    .form .entry .btn{
+        display: block;
+        width:25%;
+        margin :auto;
+        background-color: black;
+    }
+    .btn{
+        padding: 2px;
+        margin: 3px 4px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight:bold;
+        border-radius: 12px;
+    }
+    .main .form .entry p{
+        color : rgb(250, 249, 249);
+        font-weight: bold;
+    }
+    .form h2{
+        color: rgb(247, 245, 242);
+        padding:5px 6px 25px 6px ;
+    }
+    
